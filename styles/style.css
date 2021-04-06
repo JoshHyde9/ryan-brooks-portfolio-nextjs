@@ -1,0 +1,144 @@
+[data-theme="dark"] {
+  --primary-color: #9a97f3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #1b1c1d;
+  --heading-color: #818cab;
+  --btn-pink: #ff74d8;
+}
+
+[data-theme="light"] {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+  --btn-pink: #e61a8d;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+h1 {
+  color: var(--font-color) !important;
+}
+
+h1.ui.header.title {
+  color: var(--font-color);
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+h2.ui.header.sub-title {
+  color: var(--font-color);
+  margin-top: 1.5em;
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.inverted.segment {
+  background-color: var(--bg-color);
+}
+
+.segment-fullheight {
+  min-height: calc(100vh - 51.9333px);
+  text-align: center;
+}
+
+div.ui.large.nav-bar.menu {
+  background-color: var(--bg-color);
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+div.ui.large.nav-bar.menu div.ui.container a.item {
+  color: var(--font-color);
+}
+
+a.ui.pink.inverted.button, a.ui.pink.huge.button.title-btn {
+  -webkit-box-shadow: 0 0 0 2px var(--btn-pink) inset !important;
+          box-shadow: 0 0 0 2px var(--btn-pink) inset !important;
+  color: var(--btn-pink);
+}
+
+a.ui.pink.inverted.button:hover, a.ui.pink.huge.button.title-btn:hover {
+  background-color: var(--btn-pink);
+  color: #fff;
+}
+
+a.ui.pink.huge.button.title-btn {
+  margin-top: 1em;
+}
+
+.padding {
+  padding: 2rem 0 !important;
+}
+
+.ui.centered img:hover {
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.ui.vertical.ui.overlay.left.visible.sidebar.menu {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.ui.vertical.ui.overlay.left.visible.sidebar.menu a.item {
+  color: var(--font-color) !important;
+}
+
+.ui.vertical.ui.overlay.left.visible.sidebar.menu a.item.active {
+  color: var(--font-color) !important;
+}
+
+.ui.vertical.ui.overlay.left.animating.sidebar.menu {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.ui.vertical.ui.overlay.left.animating.sidebar.menu a.item {
+  color: var(--font-color) !important;
+}
+
+.ui.vertical.ui.overlay.left.animating.sidebar.menu a.item.active {
+  color: var(--font-color) !important;
+}
+
+.mobile-nav {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.open-nav {
+  padding: 1rem;
+}
+
+.ui.stackable.horizontally.padded.three.column.grid {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.ui.stackable.horizontally.padded.three.column.grid .column .ui.card {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.ui.stackable.horizontally.padded.three.column.grid .column .ui.card .header {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.ui.stackable.horizontally.padded.three.column.grid .column .extra.content {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
