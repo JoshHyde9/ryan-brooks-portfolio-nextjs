@@ -1,147 +1,148 @@
 [data-theme="dark"] {
-    --primary-color: #9a97f3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #1b1c1d;
-    --heading-color: #818cab;
-    --btn-pink: #ff74d8;
-  }
-  
-  [data-theme="light"] {
-    --primary-color: #302ae6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
-    --btn-pink: #e61a8d;
-  }
-  
-  body {
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    background-color: var(--bg-color);
-    color: var(--font-color);
-  }
-  
-  h1 {
-    color: var(--font-color) !important;
-  }
-  
-  h1.ui.header.title {
-    color: var(--font-color);
-    margin-top: 3em;
-    margin-bottom: 0;
-    font-size: 4em;
-    font-weight: normal;
-  }
-  
-  h2.ui.header.sub-title {
-    color: var(--font-color);
-    margin-top: 1.5em;
-    font-size: 1.7em;
-    font-weight: normal;
-  }
-  
-  .ui.inverted.segment {
-    background-color: var(--bg-color);
-  }
-  
-  .segment-fullheight {
-    min-height: calc(100vh - 51.9333px);
-    text-align: center;
-  }
-  
-  div.ui.large.nav-bar.menu {
-    background-color: var(--bg-color);
-    border-radius: 0;
-    margin-bottom: 0;
-  
-    div.ui.container {
-      a.item {
-        color: var(--font-color);
-      }
-    }
-  }
-  
-  a.ui.pink.inverted.button {
-    box-shadow: 0 0 0 2px var(--btn-pink) inset !important;
-    color: var(--btn-pink);
-    &:hover {
-      background-color: var(--btn-pink);
-      color: #fff;
-    }
-  }
-  
-  a.ui.pink.huge.button.title-btn {
-    @extend a.ui.pink.inverted.button;
-    margin-top: 1em;
-  }
-  
-  // Helpers
-  .padding {
-    padding: 2rem 0 !important;
-  }
-  
-  .ui.centered img {
-    &:hover {
-      transition: ease-in-out 200ms;
-      filter: brightness(0.5);
-    }
-  }
-  
-  .ui.vertical.ui.overlay.left.visible.sidebar.menu {
-    background-color: var(--bg-color) !important;
-    color: var(--font-color) !important;
-  
+  --primary-color: #9a97f3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #1b1c1d;
+  --heading-color: #818cab;
+  --btn-pink: #ff74d8;
+}
+
+[data-theme="light"] {
+  --primary-color: #302ae6;
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+  --btn-pink: #e61a8d;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+h1 {
+  color: var(--font-color) !important;
+}
+
+h1.ui.header.title {
+  color: var(--font-color);
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+h2.ui.header.sub-title {
+  color: var(--font-color);
+  margin-top: 1.5em;
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.inverted.segment {
+  background-color: var(--bg-color);
+}
+
+.segment-fullheight {
+  min-height: calc(100vh - 51.9333px);
+  text-align: center;
+}
+
+div.ui.large.nav-bar.menu {
+  background-color: var(--bg-color);
+  border-radius: 0;
+  margin-bottom: 0;
+
+  div.ui.container {
     a.item {
-      color: var(--font-color) !important;
-    }
-  
-    a.item.active {
-      color: var(--font-color) !important;
+      color: var(--font-color);
     }
   }
-  
-  // Mobile Nav Menu
-  .ui.vertical.ui.overlay.left.animating.sidebar.menu {
-    background-color: var(--bg-color) !important;
+}
+
+a.ui.pink.inverted.button {
+  box-shadow: 0 0 0 2px var(--btn-pink) inset !important;
+  color: var(--btn-pink);
+  &:hover {
+    background-color: var(--btn-pink);
+    color: #fff;
+  }
+}
+
+a.ui.pink.huge.button.title-btn {
+  @extend a.ui.pink.inverted.button;
+  margin-top: 1em;
+}
+
+// Helpers
+.padding {
+  padding: 2rem 0 !important;
+}
+
+.ui.centered img {
+  &:hover {
+    transition: ease-in-out 200ms;
+    filter: brightness(0.5);
+  }
+}
+
+.ui.vertical.ui.overlay.left.visible.sidebar.menu {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+
+  a.item {
     color: var(--font-color) !important;
-  
-    a.item {
-      color: var(--font-color) !important;
-    }
-  
-    a.item.active {
-      color: var(--font-color) !important;
-    }
   }
-  
-  .mobile-nav {
-    background-color: var(--bg-color) !important;
+
+  a.item.active {
     color: var(--font-color) !important;
   }
-  
-  .open-nav {
-    padding: 1rem;
-  }
-  
-  .ui.stackable.horizontally.padded.three.column.grid {
-    background-color: var(--bg-color) !important;
+}
+
+// Mobile Nav Menu
+.ui.vertical.ui.overlay.left.animating.sidebar.menu {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+
+  a.item {
     color: var(--font-color) !important;
-  
-    .column {
-      .ui.card {
-        .header {
-          background-color: var(--bg-color) !important;
-          color: var(--font-color) !important;
-        }
+  }
+
+  a.item.active {
+    color: var(--font-color) !important;
+  }
+}
+
+.mobile-nav {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+}
+
+.open-nav {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.ui.stackable.horizontally.padded.three.column.grid {
+  background-color: var(--bg-color) !important;
+  color: var(--font-color) !important;
+
+  .column {
+    .ui.card {
+      .header {
         background-color: var(--bg-color) !important;
         color: var(--font-color) !important;
       }
-      .extra.content {
-        background-color: var(--bg-color) !important;
-        color: var(--font-color) !important;
-      }
+      background-color: var(--bg-color) !important;
+      color: var(--font-color) !important;
+    }
+    .extra.content {
+      background-color: var(--bg-color) !important;
+      color: var(--font-color) !important;
     }
   }
+}

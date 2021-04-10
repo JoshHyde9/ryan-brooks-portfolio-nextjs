@@ -6,7 +6,7 @@ import { Button, Container, Header, Icon } from "semantic-ui-react";
 
 export const HomepageTitle: React.FC = () => {
   return (
-    <Container text>
+    <Container text textAlign="center">
       <Header className="title" as="h1">
         Ryan Brooks
       </Header>

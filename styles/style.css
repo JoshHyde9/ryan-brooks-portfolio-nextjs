@@ -120,6 +120,7 @@ a.ui.pink.huge.button.title-btn {
 }
 
 .open-nav {
+  cursor: pointer;
   padding: 1rem;
 }
 

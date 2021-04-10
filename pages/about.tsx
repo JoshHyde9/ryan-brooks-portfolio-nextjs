@@ -8,11 +8,7 @@ export const About: React.FC = () => {
     <Container className="padding">
       <Grid stackable columns={2}>
         <Grid.Column>
-          <Image
-            src="https://raw.githubusercontent.com/ryanbop/ryan-brooks-portfolio/master/src/img/Me.jpg?token=AJW4736NWT6A7YPJMZS67A3ANQIB6"
-            alt="Me"
-            size="large"
-          />
+          <Image src="/Me.jpg" />
         </Grid.Column>
         <Grid.Column>
           <Header as="h1" content="Hello! I'm Ryan." textAlign="center" />
